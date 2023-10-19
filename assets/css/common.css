@@ -13,6 +13,7 @@
 	--font-size-xxl: clamp(24.41px, 1.69vw + 20.18px, 48px);
 	--font-size-xxxl: clamp(30.52px, 2.2vw + 25.03px, 60px);
 	--moon: url(../imgs/icons/white.png) no-repeat;
+	--grey: #585858;
 }
 
 
