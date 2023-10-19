@@ -1,0 +1,53 @@
+.conts {position: relative; letter-spacing: -0.075;}
+.scroll_bg_sub>div {background-color: #1c1c1c; opacity: 1; z-index: -1; height: 400px; overflow: hidden;}
+.conts .scroll_bg_sub>div #row1 {padding-top: 0; margin-top: -58px;}
+.title_wrap {position: absolute; top: 0; left: 50%; transform: translate(-50%, 0);}
+.title {font-size: 48px; line-height: 46px; text-transform: uppercase; color: #fefefe; font-weight: bold; text-align: center; padding: 175px 0 179px 0; position: relative;}
+.sub_menu_list {padding-top: 29px;}
+.sub_menu_list ul {display: flex; justify-content: center;}
+.sub_menu_list ul li a {font-size: 18px; letter-spacing: -0.075em; line-height: 20px; text-transform: uppercase; color: #585858; font-weight: 500; border-right: 1px solid #585858; padding: 0 108px;}
+.sub_menu_list .on {color: #d52c1c; text-decoration: underline; text-underline-offset: 35px; text-decoration-thickness: 2px;  }
+.sub_menu_list ul li:last-child a {border-right: 0;}
+.cont_wrap {background: #ffffff; letter-spacing: -0.075em;}
+.sub_container {max-width: 1500px;}
+.filter_video {margin-top: 163px; display: flex; align-items: center; justify-content: space-between;}
+.yt {display: flex; gap: 15px; align-items: center;}
+.yt img {width: 49px; aspect-ratio: 49/34; height: auto;}
+.yt p {font-size: 20px; font-weight: 500; color: #585858; padding-bottom: 2px;}
+.filter_input {display: flex; gap: 15px;}
+.sel_wrap {position: relative;}
+.sel_wrap:focus .sel_wrap:after{transform: scale(0.95);}
+.sel_wrap:after {content:url(../../imgs/sub/drop.png); display: inline-block; position: absolute; top: 15px; right: 15px; transition: 0.3s all;}
+.ui_selectbox {height: 51px; width: 151px; border: 1px solid #c2c0c0; position: relative;}
+.sel_item {font-size: 18px; color: #787878; font-weight: 400; line-height: 49px; padding: 0; padding-left: 14px; padding-top: 1px;}
+.sel_item option {font-size: 18px; color: #787878; font-weight: 400; height: 51px;}
+option:checked {background-color: #c2c0c0; color: #fefefe; transition: all 0.3s;}
+.search {position: relative; width: 401px; height: 51px;}
+.search:after {content:url(../../imgs/sub/돋보기\ 아이콘.png);  width: 21px; height: 21px; display: block; position: absolute; top: 15px; right: 15px;}
+#search {width: 401px; height: 51px; border: 1px #c2c0c0 solid; font-size: 18px; line-height: 36px; color: #000;}
+#search::placeholder {font-size: 18px; font-weight: 400; color: #c2c0c0;}
+.vd_gallery {margin-top: 80px; display: flex; align-items: center; flex-direction: column;} 
+.main_vd {width: 1280px; height:828px; position: relative; display: flex;}
+.sub_vd {width: 500px; height:350px; position: relative; display: flex; background-color: #f5f5f5;}
+.main_vd > div {width: 1280px; height: 720px; overflow: hidden; position: absolute; top: 0; left: 0;}
+.sub_vd > div {width: 500px; height: 300px; overflow: hidden; position: absolute; top: 0; left: 0;}
+.yt_img {position: absolute; height: 100%; width: 100%; z-index: 2; object-fit: cover;}
+.play_btn {display: block; width: 70px; height: 82px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 1;}  
+.inn_yt::after {content: ""; background-color: #111111b3; display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0;}
+.inn_yt:hover::after {opacity: 1; z-index: 2; transition: opacity 0.3s;}
+.inn_yt.playing::after {display: none;}
+.inn_yt:hover .play_btn {opacity: 1; z-index: 3; pointer-events: auto; transition: opacity 0.3s;}
+.inn_yt > div {position: absolute; height: 100%; width: 300%; overflow: hidden; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+iframe {height: 100%; width: 100%; object-fit: cover;}
+.main_vd p {font-size: 30px; font-weight: 500; color: #585858; align-self: flex-end; margin-bottom: 50px; line-height: 1;}
+.sub_vd .inn_yt > div {position: absolute; height: 100%; width: 500%; overflow: hidden; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.ytp-pause-overlay {display: none;}
+.sub_videos {display: flex; flex-wrap: wrap; gap: 50px; padding-top: 80px; border-top: 1px solid #eeeeee; margin-top: -1px;}
+.sub_vd p {font-size: 20px; font-weight: 500; color: #585858; align-self: flex-end; line-height: 52px; padding-left: 15px;}
+.paging_wrap {margin-top: 80px;}
+.paging_conts {display: flex; align-items: center; justify-content: center; gap: 15px;}
+.paging_start::after {content: url(../../imgs/sub/왼쪽\ 화살표\ \(2겹\).png);}
+.paging_prev::after {content: url(../../imgs/sub/왼쪽\ 화살표.png); width: 16px; display: block;}
+.paging_next::after {content: url(../../imgs/sub/오른쪽\ 화살표.png); width: 16px; display: flex; justify-content: end;}
+.paging_end::after {content: url(../../imgs/sub/오른쪽\ 화살표\ \(2겹\).png);}
+.paging_number {width: 41px; height: 41px; border: 1px solid #c2c0c0; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 500;  }

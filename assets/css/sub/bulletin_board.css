@@ -1,0 +1,32 @@
+.conts {position: relative;}
+.scroll_bg_sub>div {background-color: #1c1c1c; opacity: 1; z-index: -1; height: 400px; overflow: hidden;}
+.conts .scroll_bg_sub>div #row1 {padding-top: 0; margin-top: -58px;}
+.title_wrap {position: absolute; top: 0; left: 50%; transform: translate(-50%, 0);}
+.title {font-size: 48px; line-height: 46px; text-transform: uppercase; color: #fefefe; font-weight: bold; text-align: center; padding: 175px 0 179px 0; position: relative;}
+.sub_menu_list {padding-top: 29px;}
+.sub_menu_list ul {display: flex; justify-content: center;}
+.sub_menu_list ul li a {font-size: 18px; letter-spacing: -0.075em; line-height: 20px; text-transform: uppercase; color: #585858; font-weight: 500; border-right: 1px solid #585858; padding: 0 128px;}
+.sub_menu_list .on {color: #d52c1c; text-decoration: underline; text-underline-offset: 35px; text-decoration-thickness: 2px;  }
+.sub_menu_list ul li:last-child a {border-right: 0;}
+.cont_wrap {background: #ffffff; letter-spacing: -0.075em;}
+.sub_container {max-width: 1500px; margin: 0 auto;}
+.search {margin-top: 163px; position: relative; width: 401px; height: 51px; margin-left: auto;}
+.search:after {content:url(../../imgs/sub/돋보기\ 아이콘.png);  width: 21px; height: 21px; display: block; position: absolute; top: 15px; right: 15px;}
+#search {width: 401px; height: 51px; border: 1px #c2c0c0 solid; font-size: 18px; line-height: 36px; color: #000;}
+.table_wrap {margin-top: 30px;}
+table {border-top: 2px solid #585858;border-bottom: 2px solid #585858; width: 100%; text-align: center;}
+tr th {font-size: 18px; line-height: 56px; color: #111111; font-weight: 500;}
+tr td {font-size: 20px; line-height: 68px; color: #585858; padding-top: 2px;}
+tbody tr {border-top: 1px solid #c2c0c0;}
+.red {color: #d52c1c;}
+.btn_wrap {margin-top: 50px; margin-left: auto; width: 200px; height: 52px;}
+.btn_wrap .b_btn {width: 100%; height: 100%; border: 2px solid #767676; background-color: #fefefe; border-radius: 25px;}
+.b_btn span {font-size: 18px; color: #767676; font-weight: 500;}
+.paging_wrap {margin-top: 80px;}
+.paging_conts {display: flex; align-items: center; justify-content: center; gap: 15px;}
+.paging_start::after {content: url(../../imgs/sub/왼쪽\ 화살표\ \(2겹\).png);}
+.paging_prev::after {content: url(../../imgs/sub/왼쪽\ 화살표.png); width: 16px; display: block;}
+.paging_next::after {content: url(../../imgs/sub/오른쪽\ 화살표.png); width: 16px; display: flex; justify-content: end;}
+.paging_end::after {content: url(../../imgs/sub/오른쪽\ 화살표\ \(2겹\).png);}
+.paging_number {width: 41px; height: 41px; border: 1px solid #c2c0c0; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 500;  }
+tr:last-child td {line-height: 60px }

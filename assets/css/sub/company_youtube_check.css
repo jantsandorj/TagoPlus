@@ -1,0 +1,36 @@
+.conts {position: relative; letter-spacing: -0.075;}
+.scroll_bg_sub>div {background-color: #1c1c1c; opacity: 1; z-index: -1; height: 400px; overflow: hidden;}
+.conts .scroll_bg_sub>div #row1 {padding-top: 0; margin-top: -58px;}
+.title_wrap {position: absolute; top: 0; left: 50%; transform: translate(-50%, 0);}
+.title {font-size: 48px; line-height: 46px; text-transform: uppercase; color: #fefefe; font-weight: bold; text-align: center; padding: 175px 0 179px 0; position: relative;}
+.sub_menu_list {padding-top: 29px;}
+.sub_menu_list ul {display: flex; justify-content: center;}
+.sub_menu_list ul li a {font-size: 18px; letter-spacing: -0.075em; line-height: 20px; text-transform: uppercase; color: #585858; font-weight: 500; border-right: 1px solid #585858; padding: 0 108px;}
+.sub_menu_list .on {color: #d52c1c; text-decoration: underline; text-underline-offset: 35px; text-decoration-thickness: 2px;  }
+.sub_menu_list ul li:last-child a {border-right: 0;}
+.cont_wrap {background: #ffffff; letter-spacing: -0.075em;}
+.sub_container {max-width: 1500px;}
+.filter_video {margin-top: 172px; display: flex; align-items: center; justify-content: space-between;}
+.yt {display: flex; gap: 15px; align-items: center;}
+.yt img {width: 49px; aspect-ratio: 49/34; height: auto;}
+.yt p {font-size: 20px; font-weight: 500; color: #585858; padding-bottom: 3px;}
+.main_vd {width: 1280px; height:720px; position: relative; display: flex;}
+.main_vd > div {width: 1280px; height: 720px; overflow: hidden; position: absolute; top: 0; left: 0;}
+.yt_img {position: absolute; height: 100%; width: 100%; z-index: 2; object-fit: cover;}
+.play_btn {display: block; width: 70px; height: 82px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 1;}  
+.inn_yt::after {content: ""; background-color: #111111b3; display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0;}
+.inn_yt:hover::after {opacity: 1; z-index: 2; transition: opacity 0.3s;}
+.inn_yt.playing::after {display: none;}
+.inn_yt:hover .play_btn {opacity: 1; z-index: 3; pointer-events: auto; transition: opacity 0.3s;}
+.inn_yt > div {position: absolute; height: 100%; width: 300%; overflow: hidden; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+iframe {height: 100%; width: 100%; object-fit: cover;}
+.vd_dtl {margin-top: 38px; border-top: 2px solid #585858; border-bottom: 2px solid #585858; display: flex; flex-direction: column; align-items: center;}
+.dtl_ttl {display: flex; flex-direction: column; justify-content: end; width: 100%;}
+.dtl_ttl p {padding-top: 48px; font-size: 30px; color: #585858; font-weight: 500; text-align: center; line-height: 1;}
+.dtl_ttl .date {font-size: 20px; color: #767676; font-weight: 300; text-align: end; padding: 6px 0 48px 0;} 
+.border_cont { padding: 50px 0; border-top: 1px solid #c2c0c0; width: 100%; display: flex; justify-content: center;}
+.btn_wrapper {display: flex; flex-direction: column; align-items: end; margin-top: 30px; margin-bottom: -50px;}
+.btn_wrapper > button {width: 200px; height: 51px; border: 2px solid #767676; border-radius: 25px;}
+.btn_wrapper > button > span {font-size: 18px; font-weight: 500; color: #767676;}
+.btn_wrapper > button:hover {background-color: #767676; transition: 0.3s all;}
+.btn_wrapper > button:hover span {color: #fefefe;}
